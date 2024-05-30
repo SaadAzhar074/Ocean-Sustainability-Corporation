@@ -1,0 +1,332 @@
+<section>
+  <div class="banner-bg">
+    <div class="overlay"></div>
+    <div class="test"></div>
+    <div class="container g-0" ngx-parallax>
+      <div class="row g-0">
+        <div class="col-12 col-lg-6 d-flex align-items-center px-3">
+          <div class="banner-info-area" style="z-index: 2">
+            <div
+              class="section-title"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <h6>WE PROVIDE BEST SATISFIED SERVICES</h6>
+              <h2>
+                Leading the Way in <br />
+                Industrial Solutions
+              </h2>
+            </div>
+            <p data-aos="fade-right" data-aos-duration="2000">
+              Ocean Sustainability Corporation LLC (OSC) is fully committed to
+              introducing quality and cost-effective engineering product-based
+              solutions and specialized services from well-renowned Packagers,
+              OEMs, and consultants in Gulf and Pakistan’s Oil & Gas Sector,
+              Refineries, and Petrochemical Industries.
+            </p>
+            <div class="row banner-button px-3">
+              <button
+                class="btn-fill btn-light"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                routerLink="about-us"
+              >
+                Read More
+              </button>
+              <button
+                class="btn-fill"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+                routerLink="solutions"
+              >
+                Our Solution
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-white">
+  <div class="about-area section-padding">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="about-img-wrap">
+            <div class="image-one" data-aos="zoom-in" data-aos-duration="1000">
+              <img src="assets\images\about-page-2.webp" alt="" />
+            </div>
+            <div class="image-two" data-aos="zoom-in" data-aos-duration="1500">
+              <img src="assets\images\about-page-1.webp" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 pt-5 pt-lg-0">
+          <div class="info-content-area">
+            <div
+              class="section-title"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <h6>ABOUT US</h6>
+              <h2>We're leading Industrial Solution</h2>
+            </div>
+            <p data-aos="fade-left" data-aos-duration="1500">
+              Ocean Sustainability Corporation LLC is established with an
+              objective to provide reliable and cost effective Vendor /OEM’s
+              solution by performing initial feasibility studies, concept
+              design, basic engineering for the Clients / Operators of the
+              Plants / Refineries, Petrochemicals Industries.
+            </p>
+            <p data-aos="fade-left" data-aos-duration="2500">
+              Ocean Sustainability Corporation LLC solutions are based on state
+              of the art products / Packages offered through well renowned
+              Companies. Solutions are provided with full understanding of
+              Conceptual and Front End Engineering Design (FEED) of the
+              projects.
+            </p>
+            <div
+              class="row founded"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+            >
+              <div class="col-lg-4 col-md-6 col-12">
+                <div class="years">
+                  <span>{{ yearsOfWork }}</span
+                  >Year of Success
+                </div>
+              </div>
+
+              <div class="col-lg-8 col-md-6 col-12">
+                <div class="text">
+                  We have diversified 25+ experience & still growing day by day!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services-area bg-light-gray">
+  <div class="container">
+    <div
+      class="section-title"
+      style="text-align: center"
+      data-aos="fade-left"
+      data-aos-duration="1000"
+    >
+      <h6>SOLUTION</h6>
+      <h2>Providing the Best Solution</h2>
+    </div>
+
+    <div class="row pt-4 px-3">
+      <!--Start single service item-->
+      @for (item of solutionList | slice : 0 : 6; track $index) {
+      <div
+        class="col-md-4 col-sm-4 col-xs-12"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+      >
+        <div class="single-service-item" (click)="routeToServiceDetail(item)">
+          <div class="img-holder">
+            <img height="250" [src]="item?.src" alt="Awesome Image" />
+            <div class="overlay">
+              <div class="box">
+                <div class="content">
+                  <a class="btn-fill">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-holder">
+            <!-- <div class="icon">
+              <img
+                width="40"
+                height="40"
+                src="assets\icons\factory.webp"
+                alt=""
+              />
+            </div> -->
+            <!-- <div > -->
+            <h5>{{ item?.name }}</h5>
+            <!-- <p>Solution we provide.</p> -->
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+      }
+      <button routerLink="solutions" class="btn-fill-border">See all</button>
+      <!--End single service item-->
+    </div>
+  </div>
+</section>
+
+<section class="why-choose-us bg-white">
+  <div class="container">
+    <!-- Our Factory -->
+    <div class="our-factory">
+      <div class="row g-0">
+        <div class="content-column col-lg-6 col-md-12 col-sm-12 pb-2">
+          <div class="info-content-area">
+            <div
+              class="section-title"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <h6>SERVICE</h6>
+              <h2>We Provide the Best Service</h2>
+            </div>
+            <!-- <p data-aos="fade-up-right" data-aos-duration="1500">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequatur quis voluptatum, libero blanditiis eligendi unde non
+              aut commodi expedita! Voluptates corporis sequi aliquid soluta
+              ratione veritatis voluptatibus impedit voluptas consequuntur.
+            </p> -->
+            <!-- <p data-aos="fade-up-right" data-aos-duration="2000">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequatur quis voluptatum, libero blanditiis eligendi unde non
+              aut commodi expedita! Voluptates corporis sequi aliquid soluta
+              ratione veritatis voluptatibus impedit voluptas consequuntur.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequatur quis voluptatum, libero blanditiis eligendi unde non
+              aut commodi expedita! Voluptates corporis sequi aliquid soluta
+              ratione veritatis voluptatibus impedit voluptas consequuntur.
+            </p> -->
+            <div
+              class="about-list-item mt-30"
+              data-aos="fade-up-right"
+              data-aos-duration="1500"
+            >
+              <p class="highlight">
+                Evolving Projects by performing Conceptual Studies.
+              </p>
+              <p class="highlight">
+                Information regarding any new business based on our visits to
+                Clients.
+              </p>
+              <p class="highlight">
+                Tender elaboration with respect to bid submission requirements,
+                technical and commercial matters.
+              </p>
+              <p class="highlight">
+                Support in submission of bids with respect to bid bonds and
+                other requirements.
+              </p>
+              <p class="highlight">Support during Clarification stage.</p>
+              <p class="highlight">
+                Site visits and data collection on behalf of Principals.
+              </p>
+
+              <p class="highlight">
+                Arrangement of Meetings as per the requirements.
+              </p>
+              <p class="highlight">
+                Discussing Delivery terms and time and mode of shipment.
+              </p>
+              <p class="highlight">
+                Any other relevant services as required by our Principals.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="image-column col-lg-6 col-md-12 col-sm-12">
+          <figure class="image" data-aos="zoom-in" data-aos-duration="2000">
+            <img src="assets\images\our-company.webp" alt="" />
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Skill -->
+    <div class="our-skill">
+      <div class="row g-0">
+        <div class="content-column order-lg-2 col-lg-6 col-md-12 col-sm-12">
+          <div class="info-content-area">
+            <div
+              class="section-title"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <h6>OUR SKILL</h6>
+              <h2>What We Achieved</h2>
+            </div>
+            <!-- <p data-aos="fade-left" data-aos-duration="1500">
+              At Ocean Sustainability Corporation LLC, we pride ourselves on
+              delivering exceptional solutions tailored to the needs of our
+              clients in the Plants, Refineries, and Petrochemicals industries.
+            </p> -->
+            <div
+              class="about-list-item mt-30"
+              data-aos="fade-up-right"
+              data-aos-duration="1500"
+            >
+              <p class="highlight">
+                Conducting comprehensive feasibility studies to ensure project
+                viability and optimal design choices.
+              </p>
+              <p class="highlight">
+                Developing innovative concept designs that integrate
+                cutting-edge technologies and meet client specifications.
+              </p>
+              <p class="highlight">
+                Providing detailed basic engineering services that lay a solid
+                foundation for successful project execution.
+              </p>
+
+              <p class="highlight">
+                Executing meticulous FEED to facilitate smooth transitions from
+                planning to implementation phases.
+              </p>
+
+              <p class="highlight">
+                Delivering advanced process engineering solutions to optimize
+                operational efficiency and productivity.
+              </p>
+
+              <p class="highlight">
+                Offering expert mechanical, electrical, and instrumentation
+                services to ensure reliable and safe plant operations.
+              </p>
+              <p class="highlight">
+                Overseeing projects through to execution and commissioning,
+                ensuring they meet all performance and safety standards.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="image-column col-lg-6 col-md-12 col-sm-12">
+          <figure class="image" data-aos="zoom-in" data-aos-duration="2000">
+            <img src="assets\images\our-skill.webp" alt="" />
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-light-gray">
+  <div class="section-padding">
+    <div class="container">
+      <div class="section-title" style="text-align: center">
+        <h6>CUSTOMER</h6>
+        <h2>OEM's / Vendor's Customers</h2>
+      </div>
+      <div
+        class="row g-5 pt-5 d-flex justify-content-center align-items-center"
+      >
+        @for (item of vendorsList; track $index) {
+        <div class="col-4 col-lg-2">
+          <figure class="vendors-img">
+            <img width="80" height="80" [src]="item.src" alt="" />
+          </figure>
+        </div>
+        }
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,104 @@
+@if (footerSectionHide) {
+<section>
+  <div class="cta-area">
+    <div class="overlay"></div>
+    <div class="container" style="z-index: 2">
+      <div class="row align-items-center gy-3">
+        <div class="col-lg-6 col-md-6 col-12">
+          <h2>Let's Get Your Project Started Today!</h2>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="contact-info">
+            <div class="row">
+              <div class="col-lg-6">
+                <!-- <div class="call">
+                  <i class="bi bi-telephone"></i>
+                  <h5>Call Us</h5>
+                  <p>+25847618</p>
+                </div> -->
+              </div>
+              <div class="col-lg-6">
+                <div class="mail">
+                  <i class="bi bi-envelope"></i>
+                  <h5>E-mail</h5>
+                  <p>info&#64;oceansuscorp.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+}
+<footer class="footer-area">
+  <div class="container">
+    <div class="footer-up">
+      <div class="row gy-5">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="logo">
+            <img width="250" src="assets\images\osc-logo.png" />
+          </div>
+          <p>
+            Ocean Sustainability Corporation LLC (OSC) is dedicated to providing
+            quality and cost-effective engineering product-based solutions and
+            specialized services in the Oil & Gas Sector, Refineries, and
+            Petrochemical Industries across the Gulf and Pakistan.
+          </p>
+          <div class="social-area">
+            <a><i class="bi bi-facebook"></i></a
+            ><a><i class="bi bi-twitter-x"></i></a
+            ><a><i class="bi bi-linkedin"></i></a
+            ><a><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1 col-md-6 col-sm-12">
+          <h5>Solutions</h5>
+          <ul>
+            <li>
+              @for (item of solutionList; track $index) {
+              <a (click)="routeToServiceDetail(item)" class="solution-item"><span>-</span> {{ item?.name }}</a
+              >}
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 offset-lg-1 col-md-6 com-sm-12">
+          <h5>Explore</h5>
+          <ul>
+            <li>
+              <a routerLink="about-us">About Us</a>
+              <a routerLink="contact-us">Contact Us</a>
+              <a routerLink="contact-us">Get a Quote</a>
+              <!-- <a class="">Helpful FAQ</a> -->
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="col-lg-3 col-md-6">
+          <div class="subscribe-form">
+            <h5>Newsletter</h5>
+            <p>Sign Up now for latest news update</p>
+            <form>
+              <input type="email" placeholder="Your email" />
+              <button class="btn-fill">Subscribe</button>
+            </form>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <p class="copyright-line">
+          © 2024 Ocean Sustainability Corporation. All rights reserved.
+        </p>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <p class="privacy">Privacy Policy | Terms &amp; Conditions</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 2,
+    "src": " assets/images/service2.webp",
+    "name": "Demineralization by EDR"
+  },
+  {
+    "id": 3,
+    "src": "assets/images/service3.webp",
+    "name": "Desalination Plants"
+  },
+  {
+    "id": 4,
+    "src": "assets/images/service4.webp",
+    "name": "Effluent Treatment Plants"
+  },
+  {
+    "id": 1,
+    "src": "assets/images/service1.webp",
+    "name": "Demineralization & Condensation Recovery"
+  },
+  {
+    "id": 5,
+    "src": "assets/images/service5.webp",
+    "name": "Heat Recovery Solutions (WHRU / Economizers)"
+  },
+  {
+    "id": 6,
+    "src": "assets/images/service6.webp",
+    "name": "Heavy Duty Fans / Blowers and Compressors"
+  },
+  {
+    "id": 7,
+    "src": "assets/images/service7.webp",
+    "name": "Control Valve / ESDV / BDV"
+  }
+]

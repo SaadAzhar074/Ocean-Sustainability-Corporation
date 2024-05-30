@@ -1,0 +1,65 @@
+[
+  {
+    "id": 2,
+    "src": " assets/images/service2.webp",
+    "name": "Demineralization by EDR",
+    "img1": "assets/images/service2-detail1.webp",
+    "img2": "assets/images/service2-detail2.webp",
+    "description": "Ocean Sustainability Corp. offers advanced Electrodialysis Reversal (EDR) systems for efficient demineralization, ensuring high-purity water with reduced energy consumption and minimal waste production. EDR technology is ideal for removing dissolved salts and other impurities from water sources, making it suitable for industrial and potable water applications.",
+    "description2": "In addition to providing high-quality water treatment, Ocean Sustainability Corp.'s EDR systems are designed with environmental responsibility in mind. By utilizing reversible polarity in the electrodialysis process, the systems prevent the build-up of scaling and fouling, significantly extending the lifespan of the equipment and reducing maintenance costs. This innovative approach not only minimizes operational downtime but also enhances overall system efficiency. Furthermore, the modular design of the EDR systems allows for easy scalability, enabling customized solutions to meet the unique demands of various industries, from power generation and pharmaceuticals to agriculture and municipal water supply. Committed to advancing sustainable water management, Ocean Sustainability Corp. is at the forefront of developing technologies that balance performance with eco-friendliness, ensuring a reliable and sustainable water future."
+  },
+  {
+    "id": 3,
+    "src": "assets/images/service3.webp",
+    "name": "Desalination Plants",
+    "img1": "assets/images/service3-detail1.webp",
+    "img2": "assets/images/service3-detail2.webp",
+    "description": "We provide state-of-the-art desalination plants utilizing reverse osmosis and other cutting-edge technologies to convert seawater into fresh, potable water. Our solutions are designed for high efficiency, cost-effectiveness, and sustainability, meeting the needs of water-scarce regions and industrial applications.",
+    "description2": "In addition to our core desalination technologies, we prioritize environmental stewardship and operational resilience. Our systems incorporate energy recovery devices that significantly reduce the energy consumption associated with the desalination process, making our plants some of the most efficient in the industry. We also employ advanced filtration and pre-treatment methods to protect marine life and minimize the ecological impact on coastal environments. Our modular design approach allows for scalable solutions, catering to both small communities and large metropolitan areas. By investing in continuous research and development, we ensure that our desalination plants remain at the forefront of technological innovation, providing reliable access to clean water in even the most challenging conditions."
+  },
+  {
+    "id": 4,
+    "src": "assets/images/service4.webp",
+    "name": "Effluent Treatment Plants",
+    "img1": "assets/images/service4-detail1.webp",
+    "img2": "assets/images/service4-detail2.webp",
+    "description": "Our effluent treatment plants (ETPs) are engineered to treat industrial wastewater, ensuring compliance with environmental regulations. Utilizing a combination of physical, chemical, and biological treatment processes, our ETPs effectively remove contaminants, reducing environmental impact and promoting water reuse.",
+    "description2": "Beyond compliance and contaminant removal, our effluent treatment plants (ETPs) are designed with sustainability and efficiency at their core. We incorporate advanced monitoring and automation systems that allow for real-time analysis and optimization of the treatment process, ensuring consistent performance and reducing operational costs. By integrating energy-efficient technologies and resource recovery processes, such as biogas production from organic waste, our ETPs not only treat wastewater but also contribute to the generation of renewable energy. Furthermore, our modular and customizable ETP solutions can be tailored to meet the specific needs of various industries, from manufacturing and pharmaceuticals to food processing and textiles. By promoting water reuse and minimizing waste, our ETPs play a crucial role in supporting sustainable industrial practices and protecting valuable water resources."
+  },
+  {
+    "id": 1,
+    "src": "assets/images/service1.webp",
+    "name": "Demineralization & Condensation Recovery",
+    "img1": "assets/images/service1-detail1.webp",
+    "img2": "assets/images/service1-detail2.webp",
+    "description": "Ocean Sustainability Corp. specializes in integrated systems for demineralization and condensation recovery, optimizing water reuse and reducing operational costs. These systems efficiently remove minerals from water and recover condensate, providing high-quality feedwater for industrial processes.",
+    "description2": "In addition to enhancing water quality and operational efficiency, Ocean Sustainability Corp.'s integrated systems are designed with environmental stewardship in mind. By leveraging advanced membrane technologies and energy-efficient processes, our systems significantly reduce the carbon footprint associated with water treatment. Our demineralization and condensation recovery solutions are built to handle varying water compositions, making them adaptable to a wide range of industrial applications, from power generation and chemical manufacturing to food and beverage processing. Furthermore, our commitment to innovation ensures that we continuously improve our systems to meet evolving industry standards and environmental regulations. By providing reliable and sustainable water solutions, Ocean Sustainability Corp. helps industries achieve their sustainability goals while ensuring a steady supply of high-quality water for their operations."
+  },
+  {
+    "id": 5,
+    "src": "assets/images/service5.webp",
+    "name": "Heat Recovery Solutions (WHRU / Economizers)",
+    "img1": "assets/images/service5-detail1.webp",
+    "img2": "assets/images/service5-detail2.webp",
+    "description": "We offer robust heavy-duty fans, blowers, and compressors designed for high performance and reliability in demanding industrial environments. Our solutions ensure efficient air movement and pressure control, supporting processes in power generation, cement plants, and other heavy industries .   ",
+    "description2": "Moreover, our commitment to innovation extends beyond product design to encompass comprehensive customer support and service. We provide customized solutions tailored to each client's specific needs, whether it's optimizing airflow in a confined space or providing redundancy in critical applications. Our team of experienced engineers and technicians offer ongoing maintenance and troubleshooting assistance, ensuring maximum uptime and operational efficiency. Additionally, we prioritize sustainability in our manufacturing processes, utilizing eco-friendly materials and energy-efficient production techniques. By partnering with us, industries can rely on durable, high-performance equipment that not only meets their operational demands but also contributes to a greener future."
+  },
+  {
+    "id": 6,
+    "src": "assets/images/service6.webp",
+    "name": "Heavy Duty Fans / Blowers and Compressors",
+    "img1": "assets/images/service6-detail1.webp",
+    "img2": "assets/images/service6-detail2.webp",
+    "description": "Enhance energy efficiency and reduce fuel consumption with our Waste Heat Recovery Units (WHRU) and economizers, designed to capture and repurpose waste heat in industrial processes.",
+    "description2": "Furthermore, our Waste Heat Recovery Units (WHRU) and economizers are engineered to not only improve energy efficiency but also enhance overall sustainability. By capturing and repurposing waste heat that would otherwise be lost, our systems help industries minimize their environmental impact and reduce their carbon footprint. Through innovative design and advanced technology, we enable businesses to achieve significant cost savings by utilizing waste heat to supplement heating or power generation needs. Our WHRU and economizer solutions are adaptable to various industrial applications, offering versatility and reliability across different operating conditions. With a focus on both economic and environmental benefits, our products empower industries to embrace more sustainable practices while optimizing their operations."
+  },
+  {
+    "id": 7,
+    "src": "assets/images/service7.webp",
+    "name": "Control Valve / ESDV / BDV",
+    "img1": "assets/images/service7-detail1.webp",
+    "img2": "assets/images/service7-detail2.webp",
+    "description": "We provide these products from ISO9001 and CE certified industrial valves manufacturers, who are well experienced in designing and manufacturing industrial valves as well as valve actuators and control systems for oil and gas industrials, industrial energy, petro chemical, mining, power, water , food, beverage, paper, packing.Manufacturer is well esteemed both in Italy and abroad for its competence, quality, service and customized product design and products are exported to Germany, Italy, Austria, Russia, USA, Mexico, Chile, Nigeria, Pakistan, Thailand, Malaysia, Australia, New Zealand and more than other 30 countries. We focus our business portfolio to deliver solutions that bring greater value to our Clients.",
+    "description2": "We pride ourselves on providing high-quality, reliable industrial valves and control systems tailored to meet the specific needs of diverse industries. Our commitment to excellence ensures that our products not only meet but exceed industry standards, delivering optimal performance and longevity. By partnering with us, clients gain access to cutting-edge technology, exceptional customer service, and innovative solutions that enhance operational efficiency and drive business success."
+  }
+]

@@ -1,0 +1,132 @@
+/* Sticky CSS 
+============== */
+
+.header-area .sticky-area {
+  background: transparent;
+  z-index: 999 !important;
+  -webkit-animation: slideInDown 0.6s forwards;
+  animation: slideInDown 0.6s forwards;
+  margin-top: 0;
+  position: sticky;
+  width: 100%;
+}
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 5px 8px 0px;
+  z-index: 999;
+  transition: 0.4s ease-in-out;
+}
+
+/* Header Top Area
+============== */
+
+.header-top {
+  background: #f8f9fb;
+  font-size: 14px;
+  font-weight: 500;
+  color: #8d9cc5;
+  padding: 10px 0;
+  display: block;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.contact-info i {
+  color: #f55b15;
+  font-size: 16px;
+  margin-right: 2px;
+}
+
+.site-info .social-area {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.site-info .social-area i {
+  font-size: 17px;
+  color: #8d9cc5;
+  padding-left: 10px;
+}
+
+/* Header Area 
+============== */
+
+.header-area li.nav-item .nav-link {
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.header-area .main-menu .navbar-nav .nav-link.active {
+  color: #f35c27;
+}
+
+.header-area .main-menu li.nav-item:hover > a {
+  color: #777;
+}
+.header-right-content {
+  display: block;
+}
+.header-area .header-btn.main-btn {
+  padding: 16px 30px;
+}
+
+/* Main Menu 
+============== */
+
+.main-menu .navbar {
+  padding: 0;
+}
+
+.main-menu li.nav-item {
+  position: relative;
+  margin-right: 35px;
+}
+
+.main-menu li.nav-item:last-child {
+  margin-right: 0;
+}
+
+.main-menu .navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #d7d7d7;
+  display: block;
+  padding: 30px 0;
+}
+
+.main-menu .navbar-nav .nav-link.active {
+  color: #fff;
+}
+
+.main-menu li.nav-item:hover > a {
+  color: #fff;
+}
+/* sidebar */
+
+.offcanvas-body ul li {
+  padding: 15px;
+  border-bottom: 1px solid #c5c5c5;
+  transition: 0.2s ease-in-out;
+}
+.offcanvas-body ul li:hover {
+  color: var(--primary-color);
+}
+.offcanvas-body ul li:last-child {
+  border-bottom: 0;
+}
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .header-top {
+    display: none;
+  }
+  .header-right-content {
+    display: none;
+  }
+}

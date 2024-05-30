@@ -1,0 +1,94 @@
+<section>
+  <div class="breadcroumb-area bread-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="breadcroumb-title text-center">
+            <h1>Solutions</h1>
+            <h6><a routerLink="" class="">Home</a> / Solutions</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services-area bg-light-gray">
+  <div class="container">
+    <!-- <div class="section-title" style="text-align: center">
+      <h6>SOLUTION</h6>
+      <h2>Providing the Best Solution</h2>
+    </div> -->
+    <div class="row justify-content-center">
+      @for (item of solutionList; track $index) {
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="single-service-item" (click)="routeToServiceDetail(item)">
+          <div class="img-holder">
+            <img height="250" [src]="item?.src" alt="Awesome Image" />
+            <div class="overlay">
+              <div class="box">
+                <div class="content">
+                  <a class="btn-fill">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-holder">
+            <h5>{{ item?.name }}</h5>
+          </div>
+        </div>
+      </div>
+      }
+    </div>
+  </div>
+</section>
+
+<div data-v-bbe738e2="" class="feature-area section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="section-title">
+          <h6>Features</h6>
+          <h2>We manage &amp; organized Quality Industrial Project</h2>
+        </div>
+        <div class="single-feature-item">
+          <div class="feature-icon"><i class="bi bi-buildings"></i></div>
+          <div class="feature-content">
+            <h5>Industrial Leader</h5>
+            <p>
+              As an industrial leader, Ocean Sustainability Corp. delivers
+              innovative, cost-effective solutions that drive efficiency and
+              sustainability in the oil, gas, and petrochemical sectors.
+            </p>
+          </div>
+        </div>
+        <div class="single-feature-item">
+          <div class="feature-icon"><i class="bi bi-award"></i></div>
+          <div class="feature-content">
+            <h5>Quality Standards</h5>
+            <p>
+              Ocean Sustainability Corp. adheres to the highest quality
+              standards, ensuring reliable, efficient, and sustainable
+              solutions.
+            </p>
+          </div>
+        </div>
+        <div class="single-feature-item">
+          <div class="feature-icon"><i class="bi bi-ubuntu"></i></div>
+          <div class="feature-content">
+            <h5>Modern Technique</h5>
+            <p>
+              Ocean Sustainability Corp. employs cutting-edge techniques and
+              technologies to deliver innovative and efficient solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="feature-image">
+          <img src="assets\images\features-img.webp" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
